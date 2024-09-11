@@ -54,7 +54,7 @@ TTTTTTTT     JJJJJJJJ
 1. Did you have to submit this code more than once before it passed? If so, what
    did you have to change?
 
-
+I submitted twice because I didnt think my "C" ended up looking like one the first time
 
 
 
