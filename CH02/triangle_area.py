@@ -22,12 +22,10 @@ def find_area():
 
     ########## ENTER YER CODE BELOW THIS LINE ##########
     
-    triangle_height = input("Enter the height: ")
-    triangle_base = input("Enter the base: ")
-
-    print('The area of the triangle is')
-    triangle_area = (0.5*triangle_height*triangle_base)
-    print(triangle_area)
+    triangle_height = float(input("Enter the height: "))
+    triangle_base = float(input("Enter the base: "))
+    area_calculation = 0.5*triangle_base*triangle_height
+    print(f'The area of the triangle is {area_calculation}')
     
 
     
