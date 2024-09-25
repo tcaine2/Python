@@ -26,7 +26,7 @@ def bounded_random():
     bounded_seed_from_user = int(input('Enter a seed for the random number generation: '))
     random.seed(bounded_seed_from_user)
 
-    random_number = int(random.random())
+    random_number = int(random.randint(1,10))
     print(random_number)
 
 
