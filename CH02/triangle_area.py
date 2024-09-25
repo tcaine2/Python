@@ -76,13 +76,14 @@ The area of the triangle is 16.0
 
 1. What is the flow of the program? Which line of code kicks off the process?
 
-
+I had the flow of this program defining what you should set the base and height to and then putting them into the area of a triangle formula to output everything together
+The line that "kicks off" the program would be setting the triangle height
 
 
 
 2. What was the hardest part of this lab?
 
-
+For me it was figuring out how to put everything together to calculate. 
 
 
 

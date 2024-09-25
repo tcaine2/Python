@@ -26,7 +26,7 @@ def convert_C_to_F():
 
     temp_question = float(input("Enter temperature in Celsius: "))
     celsius_calculation = ((1.8*temp_question)+32)
-    print(f'{temp_question} degrees Celsius is {celsius_calculation} degrees in Fahrenheit')
+    print(f'{temp_question} degrees Celsius is {celsius_calculation} degrees Fahrenheit')
 
 
 
@@ -83,14 +83,14 @@ Enter a temperature in Celsius: 1
 
 1. What does `float` mean?
 
-
+float is the command you use when you want to output a number in decimal form incase your two integers output a non whole number
 
 
 
 2. Why do you think it is important to use `float` as opposed to
    a different type of variable type?
 
-
+the float commant allows for more variablilty based on what the user input
 
 
 
