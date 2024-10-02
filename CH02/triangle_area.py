@@ -2,7 +2,8 @@
 
 # NAME: Thomas Caine
 # DATE: 9/18/24
-# BRIEF DESCRIPTION:  This program will create a trangle with the * symbol using formulas
+# BRIEF DESCRIPTION:  This is a program that uses the height and the base of a triangle to 
+# compute the area of the triangle using the formula A = 1/2 * b * h.
 
 
 
@@ -26,16 +27,7 @@ def find_area():
     triangle_base = float(input("Enter the base: "))
     area_calculation = 0.5*triangle_base*triangle_height
     print(f'The area of the triangle is {area_calculation}')
-    
 
-    
-    
-    
-    
-    
-    
-    
-    
     ########### END YER CODE ABOVE THIS LINE ###########
 
 main()

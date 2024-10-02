@@ -2,7 +2,8 @@
 
 # NAME: Thomas Caine
 # DATE: 09/18/24
-# BRIEF DESCRIPTION: This is a code that will output text by repeating names
+# BRIEF DESCRIPTION: This is a code that will ask the user for their first name 
+# and their last name. Then output the word "Hi," followed by their full name.
 
 
 
@@ -87,7 +88,8 @@ Hi, Lisa Simpson, esquire
    your response to Python. It might be a lesson in time management, a lesson
    using CodeGrade, or something else.
 
-
+For completing this lab I learned that I can use my classmates to help me complete the work by working with
+eachother to get the right output for the code
 
 
 

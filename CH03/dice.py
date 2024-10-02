@@ -31,8 +31,8 @@ def roll_die():
     dice_output_one = int(random.randint(1,6))
     dice_output_two = int(random.randint(1,6))
     
-    print(f'Dice roll one is', dice_output_one)
-    print(f'Dice roll two is', dice_output_two)
+    print(f'Die roll one is {dice_output_one}')
+    print(f'Die roll two is {dice_output_two}')
 
 
 

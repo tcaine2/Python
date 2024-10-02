@@ -2,7 +2,8 @@
 
 # NAME: Thomas Caine
 # DATE: 09/23/24
-# BRIEF DESCRIPTION: This code will have the ability to convert temperature from celsius to fahrenheit 
+# BRIEF DESCRIPTION: This is a code that will get a whole number from the user 
+# that represents a temperature in Celsius. Convert the temperature to Fahrenheit.
 
 
 
@@ -24,16 +25,9 @@ def convert_C_to_F():
     
     ########## ENTER YER CODE BELOW THIS LINE #########
 
-    temp_question = float(input("Enter temperature in Celsius: "))
+    temp_question = float(input("Enter a temperature in Celsius: "))
     celsius_calculation = ((1.8*temp_question)+32)
-    print(f'{temp_question} degrees Celsius is {celsius_calculation} degrees Fahrenheit')
-
-
-
-
-
-
-
+    print(f'{temp_question} degrees Celsius is {celsius_calculation} degrees Fahrenheit.')
 
     ########### END YER CODE ABOVE THIS LINE ###########
 
