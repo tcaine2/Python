@@ -23,21 +23,15 @@ def compliment():
     ########## ENTER YER CODE BELOW THIS LINE ##########
 
 
-    user_input = str((input('Would you like a compliment? ')))
+    user_input = input('Would you like a compliment? ')
     
-    yes = True
+    # yes = True
 
-if user_input == True:
-    print('You have wonderful eyes.')
-    print('Thank you for playing.')
-else:
-    print('Thank you for playing')
-
-
-
-
-
-
+    if user_input == 'yes':
+        print('You have wonderful eyes.')
+        print('Thank you for playing.')
+    else:
+        print('Thank you for playing')
 
     ########### END YER CODE ABOVE THIS LINE ###########    
     
@@ -86,7 +80,8 @@ Thank you for playing.
 
 1. What was the hardest part of completing this lab? 
 
-
+I didn't realize that the entire code had to be in line with the commented out like where we have to enter our code between. So when it said "user_input" 
+wasnt defined, once indented it fixed itself
 
 
 
@@ -109,6 +104,8 @@ of the appropriate response. Only choose one of the following:
 [ ] I wrote the initial draft of the software but had AI help me make it better.
 [ ] I fed the lab description to AI and had it generate a response but I modified it.
 [ ] AI created the entire program for me.
+[ X ] Other: I copied the error message I was seeing into ChatGPT to see if I could pin point the source of why my code wouldn't run
+
 
 
 
@@ -119,7 +116,7 @@ may impede your understanding. Please rate how well you understand the concepts 
 
 [ ] I understand very little about this lab.
 [ ] I am about 50/50 on this lab; I get parts of it but not the whole picture.
-[ ] I pretty much get it.
+[ X ] I pretty much get it.
 [ ] I'm solid. Totally got it.
 
 '''
