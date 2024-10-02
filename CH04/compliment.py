@@ -31,7 +31,7 @@ def compliment():
         print('You have wonderful eyes.')
         print('Thank you for playing.')
     else:
-        print('Thank you for playing')
+        print('Thank you for playing.')
 
     ########### END YER CODE ABOVE THIS LINE ###########    
     
