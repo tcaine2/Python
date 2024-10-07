@@ -24,7 +24,8 @@ def generate_password():
     import random
     import string
 
-    random.seed(123)
+    seed_value = int(input("Enter a seed value for the random number generation: "))
+    random.seed(seed_value)
 
     special_chars = "!@#$&(),-_"
     
@@ -41,7 +42,7 @@ def generate_password():
     second_digit = random.choice(digits)
     last_special = random.choice(special_chars)
 
-    print(first_special + first_lower + first_upper + second_lower + second_upper + first_digit + second_digit + last_special)
+    print(f'Your random password is: {first_special}{first_lower}{first_upper}{second_lower}{second_upper}{first_digit}{second_digit}{last_special}')
 
     ########### END YER CODE ABOVE THIS LINE ###########
 
