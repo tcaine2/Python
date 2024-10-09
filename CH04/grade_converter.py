@@ -35,11 +35,9 @@ def grade_converter():
         print('B')
     elif grade in range (90, 100):
         print('A')
-    elif grade in range (100, 1000):
+    elif grade in range (101, 1000):
         print('A+')
-    else: 
-        print('INVALID GRADE')
-
+        
     ########### END YER CODE ABOVE THIS LINE ###########
 
 

@@ -30,30 +30,20 @@ def convertCF2():
 
     ########## ENTER YER CODE BELOW THIS LINE ##########
 
-    temperature = input('Enter a temperature to input ')
+    temperature = float(input('Enter a temperature to input '))
     
     convert_option_1 = 1
-    option_1 = temperature * 9/5 + 32
+    option_1 = temperature * (9/5) + 32
 
     convert_option_2 = 2
     option_2 = (temperature - 32 ) * 5/9
 
     menu_options = input('Please choose from the above menu: ')
 
-    print(menu_options)
-    print(temperature)
-
     if temperature == option_1:
-      print(f'{temperature}degrees Celsius is{option_2}degrees Fahrenheit')
+      print(f'{temperature} degrees Celsius is {option_2} degrees Fahrenheit')
     else:
-      print(f'{temperature}degrees Fahrenheit is{option_1}degrees Celsius')
-
-
-
-
-
-
-
+      print(f'{temperature} degrees Fahrenheit is {option_1} degrees Celsius')
 
     ########### END YER CODE ABOVE THIS LINE ###########
 
@@ -128,7 +118,8 @@ Enter a temperature to convert: -40
 
 1. What is one lesson you learned in this lab?
 
-
+Going back and checking your work. I thought I had this done correctly and after checking realized that I needed to write the first option as 
+option_1 = temperature * (9/5) + 32 
 
 
 
@@ -147,7 +138,7 @@ Enter a temperature to convert: -40
 Please gauge your utilization of AI on the following spectrum. Place an "X" in front
 of the appropriate response. Only choose one of the following:
 
-[ ] I did not use AI at all for this lab.
+[ X ] I did not use AI at all for this lab.
 [ ] I wrote the initial draft of the software but had AI help me make it better.
 [ ] I fed the lab description to AI and had it generate a response but I modified it.
 [ ] AI created the entire program for me.
@@ -162,6 +153,6 @@ may impede your understanding. Please rate how well you understand the concepts 
 [ ] I understand very little about this lab.
 [ ] I am about 50/50 on this lab; I get parts of it but not the whole picture.
 [ ] I pretty much get it.
-[ ] I'm solid. Totally got it.
+[ X ] I'm solid. Totally got it.
 
 '''
