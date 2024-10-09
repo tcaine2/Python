@@ -25,17 +25,17 @@ def grade_converter():
     
     grade = int(input('Enter a numerical grade (1 to 100): '))
 
-    if grade in range (-100, 65):
+    if grade in range (-100, 64):
         print('F')
-    elif grade in range (65, 70):
+    elif grade in range (65, 69):
         print('D')
-    elif grade in range (70, 80):
+    elif grade in range (70, 79):
         print('C')
-    elif grade in range (80, 90):
+    elif grade in range (80, 89):
         print('B')
     elif grade in range (90, 100):
         print('A')
-    elif grade in range (101, 1000):
+    elif grade in range (100, 1000):
         print('A+')
     else: 
         print('INVALID GRADE')
