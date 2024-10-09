@@ -23,18 +23,20 @@ def grade_converter():
 
     ########## ENTER YER CODE BELOW THIS LINE ##########
     
-    grade = int(input('Enter the grade (between 0 and 100): '))
+    grade = int(input('Enter a numerical grade (1 to 100): '))
 
-    if grade in range (0, 65):
-        print('Your grade is an F')
+    if grade in range (-100, 65):
+        print('F')
     elif grade in range (65, 70):
-        print('Your grade is a D')
+        print('D')
     elif grade in range (70, 80):
-        print('Your grade is a C')
+        print('C')
     elif grade in range (80, 90):
-        print('Your grade is a B')
+        print('B')
     elif grade in range (90, 100):
-        print('Your grade is a A')
+        print('A')
+    elif grade in range (101, 1000):
+        print('A+')
     else: 
         print('INVALID GRADE')
 
