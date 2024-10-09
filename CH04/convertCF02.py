@@ -41,9 +41,9 @@ def convertCF2():
     option_2 = (temperature - 32 ) * 5/9
     
     if temperature == option_1:
-      print(f'{temperature} degrees Fahrenheit is {option_2} degrees Celsius')
+      print(f'{temperature} degrees Fahrenheit is {option_2} degrees Celsius.')
     else:
-      print(f'{temperature} degrees Celsius is {option_1} degrees Fahrenheit')
+      print(f'{temperature} degrees Celsius is {option_1} degrees Fahrenheit.')
 
     ########### END YER CODE ABOVE THIS LINE ###########
 
