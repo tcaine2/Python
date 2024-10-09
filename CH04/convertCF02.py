@@ -30,20 +30,20 @@ def convertCF2():
 
     ########## ENTER YER CODE BELOW THIS LINE ##########
 
-    menu_options = input('Please choose from the above menu: ')
+    menu_options = int(input('Please choose from the above menu: '))
     
     temperature = float(input('Enter a temperature to convert: '))
     
     convert_option_1 = 1
-    option_1 = temperature * (9/5) + 32
+    option_1 = temperature * (9/5) + 32 # Celsius to fahrenheit
 
     convert_option_2 = 2
-    option_2 = (temperature - 32 ) * 5/9
+    option_2 = (temperature - 32 ) * 5/9 # Fahrenheit to celsius
     
-    if temperature == option_1:
-      print(f'{temperature} degrees Fahrenheit is {option_2} degrees Celsius.')
-    else:
+    if menu_options == 1:
       print(f'{temperature} degrees Celsius is {option_1} degrees Fahrenheit.')
+    else:
+      print(f'{temperature} degrees Fahrenheit is {option_2} degrees Celsius.')
 
     ########### END YER CODE ABOVE THIS LINE ###########
 
