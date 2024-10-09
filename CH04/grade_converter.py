@@ -1,8 +1,8 @@
 # FILE NAME - grade_converter.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Thomas Caine
+# DATE: 10/9/24
+# BRIEF DESCRIPTION: This is a code that will ask for a grade percentage and return the corresponding letter grade.
 
 
 
@@ -23,7 +23,7 @@ def grade_converter():
 
     ########## ENTER YER CODE BELOW THIS LINE ##########
     
-    grade = int(input('Enter a numerical grade (1 to 100): '))
+    grade = int(input('Enter a numerical grade (1-100): '))
 
     if grade in range (-100, 65):
         print('F')
