@@ -26,7 +26,10 @@ def output_values():
 
     # Walk through the list and grab a number from the
     # user. Insert that number into the next available cell
+    for x in range(5):
+        numbers.append(int(input('Enter a number: ')))
 
+    print()
     #########################################
     #               YOUR JOB:               #
     #                                       #
@@ -40,14 +43,11 @@ def output_values():
 
 
     # Sort the list
-    for x in range(5):
-        numbers.append(int(input('Enter a number: ')))
-
-    print()
-
+    numbers.sort()
+    
     # Print out the list naturally:
-    print(f'[{numbers[0]}, {numbers[1]}, {numbers[2]}, {numbers[3]}, {numbers[4]}]')
-
+    print(numbers)
+    
     # Print out the list in a pretty way:
     print(f'Your numbers are: {numbers[0]} {numbers[1]} {numbers[2]} {numbers[3]} {numbers[4]}')
 
