@@ -58,6 +58,7 @@ def double_values():
     print(f'ORIGINAL (sorted) - {numbers}')
     
     # DOUBLED
+    double_numbers.sort
     print(f'DOUBLED -           {double_numbers}')
 
 
