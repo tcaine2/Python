@@ -1,8 +1,8 @@
 # FILE NAME - output_right.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Thomas Caine
+# DATE: 10/30/24
+# BRIEF DESCRIPTION: This lab will...  
 
 
 
