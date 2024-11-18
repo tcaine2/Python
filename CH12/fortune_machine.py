@@ -32,6 +32,7 @@ def run_fortune_machine():
     fortune_util.dashes()
     print('MULTIPLE FORTUNES:')
     number_of_fortunes = int(input(f'How many fortunes would you like? '))
+    print()
     fortune_util.get_multiple_fortunes(number_of_fortunes)
     fortune_util.dashes()
     fortune_util.quit()
