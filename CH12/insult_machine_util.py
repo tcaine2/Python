@@ -27,7 +27,8 @@ def two_insults():
     one_insult()
     
 def insult_specific_name(name):
-    print(f'\n{name}, here is your insult: {random.choice(insults)}')
+    print(f'\n{name}, here is your insult: ', end='')
+    one_insult()
 
 def insult_x_number_of_insults(num):
     print()
