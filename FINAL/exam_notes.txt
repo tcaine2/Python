@@ -1,0 +1,70 @@
+Strings:
+
+EX: spongebob 
+    SpOnGeBoB 
+
+To take a letter and capitalize every-other letter:
+    
+    1. Get string from user
+    2. Convert string into a list
+        
+        EX: test = [t, e, s, t] ---> TeSt
+    
+    3. Itterate through string/list (every other term)
+    
+        sponged_word = input('Enter word to SpongeBobify: ')
+    
+        length_of_word = len(word)
+        print(length_of_word)
+        sponged_word = ''
+
+        for x in range(0, lenth_of_word):
+           
+            if x % 2 == 0:
+                sponged_word += word[x].upper()
+            else:
+                sponged_word += word[x].lower()
+
+        print(sponged_word)
+    
+    4. "len" can be used in a list and not just a string (words)
+    5. you can reference individual words with the [x] notation
+
+Creating and acronym tester:
+
+EX:     
+CIA 
+Central Intelligence Agency #true
+
+NSA
+Not Such an Agency #false
+
+FBI
+Federal Investigators #false
+
+1.
+
+    word = input("Enter the acronym: ")
+    words = input("Proposed words: ")
+    
+    acronym = words.split()
+    isAcronym = False 
+
+    if len(word) != len(acronym)
+        print('NOT A MATCH')
+    else:
+        for x in range(len(word))
+            if word[x].upper() == acronym[x][0].upper():
+                isAcronym = False
+
+    if isAcronym == True:
+        print("This is a valid acronym")
+    else:
+        print("This is NOT a valid acronym")        
+
+    print(word)
+    print(words)
+    print(acronym)
+
+2. show how to access individual letters from a list (line 57)
+3. make sure there is use of [x] notation
