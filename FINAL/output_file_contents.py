@@ -1,3 +1,7 @@
+# Name: Thomas Caine
+# Date: 12/16/24
+# Program description: This program will ask for the user to input the full filename of a list and will then output the results. 
+
 def output_file_contents(file_name):
     
     file_name = input(f'Please type in the name of a stickynotez: ')

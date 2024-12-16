@@ -4,11 +4,6 @@
 
 def list_menu():
     print()
-    # sticky_list = ["1. Grocery List", 
-    #                "2. Movies to watch", 
-    #                "3. Palindromes", 
-    #                "4. QUIT"]
-    
     print('1. Grocery List')
     print('2. Movies to watch')
     print('3. Palindromes')

@@ -8,4 +8,5 @@ def action_menu():
     print('3. Sort list')
     print()
     # print('action_menu() was called')
+
 action_menu()
